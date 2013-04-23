@@ -1,20 +1,24 @@
-REPOS [GIT] commit 49c48a78: Fix PROJECTS, watch git/feeds.
+REPOS [GIT] commit a39cc860: Update repos.
 
 
 Path  : git
-Date  : 2013-04-23 23:41:58 +0800
+Date  : 2013-04-24 00:20:03 +0800
 Author: Afun Nahn
-Commit: 49c48a78c0f30dbedce0a9aca7033496cbac741d
+Commit: a39cc8605b73c54c606a937f83c7dfa5b9e9222d
 
-    Fix PROJECTS, watch git/feeds.
+    Update repos.
 
 
 
- .PROJECTS                       |   12 +++++-------
- git/.gitignore                  |    1 +
- git/feeds/git/refs/heads/master |    1 +
+ .is-modified                    |   40 +++++++++++++++++++++++++++++++++++++++
+ git-repos.log                   |   15 +++++++++++----
+ git-repos.log.diff              |    8 --------
+ git-repos.log.old               |   19 +++++++++++++------
+ git/.is-modified                |   16 +++++++++-------
+ git/hooks.pl                    |    8 +++++---
  git/repos/git/refs/heads/master |    2 +-
- 4 files changed, 8 insertions(+), 8 deletions(-)
+ scripts                         |    2 +-
+ 8 files changed, 80 insertions(+), 30 deletions(-)
 
 ================================================================================
 
