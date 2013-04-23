@@ -1,21 +1,20 @@
-REPOS [GIT] commit 6c935482: Update .PROJECTS, add feeds.
+REPOS [GIT] commit 49c48a78: Fix PROJECTS, watch git/feeds.
 
 
 Path  : git
-Date  : 2013-04-23 22:40:27 +0800
+Date  : 2013-04-23 23:41:58 +0800
 Author: Afun Nahn
-Commit: 6c9354825b0fb84ca70923699c62eaab3c532915
+Commit: 49c48a78c0f30dbedce0a9aca7033496cbac741d
 
-    Update .PROJECTS, add feeds.
+    Fix PROJECTS, watch git/feeds.
 
 
 
- .PROJECTS                       |  110 +++++++++++++++++++++++----------------
- git-repos.log                   |    4 +-
- git-repos.log.diff              |    8 +++
- git/.is-modified                |    4 +-
+ .PROJECTS                       |   12 +++++-------
+ git/.gitignore                  |    1 +
+ git/feeds/git/refs/heads/master |    1 +
  git/repos/git/refs/heads/master |    2 +-
- 5 files changed, 79 insertions(+), 49 deletions(-)
+ 4 files changed, 8 insertions(+), 8 deletions(-)
 
 ================================================================================
 
